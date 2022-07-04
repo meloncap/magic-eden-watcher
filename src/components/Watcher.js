@@ -5,9 +5,9 @@ import axios from 'axios'
 import { filter, find } from 'lodash'
 
 const LISTED_NFT_API =
-    'https://api-mainnet.magiceden.io/rpc/getListedNFTsByQuery'
+    'http://api-mainnet.magiceden.dev/v2/collections'
 
-const API = 'https://api-mainnet.magiceden.io/rpc/getCollectionEscrowStats/'
+const API = 'http://api-mainnet.magiceden.dev/v2/collections'
 
 // const LAMPORTS_PER_SOL = 1000000000
 
